@@ -107,7 +107,7 @@
 
                     <p>项目代表：Auth2 统一安全认证平台</p>
 
-                    <p>Auth2 认证授权平台，它是基于Apache Shiro和Apache OLTU协议，为公司的运营平台量身定制的安全系统，以Shiro协议为认证模型，OAuth2协议为授权流程模型,内部采用Apache karaf作为运行环境，对外提供REST接口，数据传输方式为json，以Apache Accumulo为原生数据库，并参考Solr的倒排索引来持久化数据，实现真正的安全+高效检索的数据存储。</p>
+                    <p>Auth2 认证授权平台，它是基于Apache Shiro和Apache OLTU协议，为公司的运营平台量身定制的多租户安全系统，以Shiro协议为认证模型，OAuth2协议为授权流程模型,内部采用Apache karaf作为运行环境，对外提供实现JSR-RS规范的REST接口，数据传输方式为json，以Apache Accumulo为原生数据库，采用安全域的物理存储隔离机制，并参考Solr的倒排索引来持久化数据，实现真正的安全+高效检索的数据存储。</p>
 
                     <p>主要负责：安全资源服务模块、Accumulo客户端的开发和维护，认证授权模块的维护工作</p>
                     <p>安全资源服务模块：对认证授权模块和公司运营平台以REST接口的形式提供数据服务，通过JSON+JACKSON格式传输数据。内部采用mvc架构实现逻辑隔离，对私密数据进行SHA-256加密处理，确保数据安全。</p>
